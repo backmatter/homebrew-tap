@@ -16,5 +16,9 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - uses: Homebrew/actions/setup-homebrew@7001732169813b7bd296f39014e60fcc07f0ef9a
+      - name: Use the checked-out formula
+        run: |
+          brew tap backmatter/tap
+          cp Formula/tex-ls.rb "$(brew --repository backmatter/tap)/Formula/tex-ls.rb"
       - run: brew install backmatter/tap/tex-ls
       - run: brew test backmatter/tap/tex-ls
