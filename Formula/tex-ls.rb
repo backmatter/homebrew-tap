@@ -1,28 +1,28 @@
 class TexLs < Formula
   desc "LaTeX and BibTeX language server, formatter, and linter"
   homepage "https://github.com/backmatter/tex-ls"
-  version "0.1.0"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/backmatter/tex-ls/releases/download/v0.1.0/tex-ls-aarch64-apple-darwin.tar.gz"
-      sha256 "1a054b06521ebd9003f4e5a03c0ada5778002f9d8f34b4247f9c77a55fdd48c6"
+      url "https://github.com/backmatter/tex-ls/releases/download/v0.1.3/tex-ls-aarch64-apple-darwin.tar.gz"
+      sha256 "2887d821143915bbcfe09480dfaf8119ef0433ae8febfa294cb563ca1030ce75"
     end
     on_intel do
-      url "https://github.com/backmatter/tex-ls/releases/download/v0.1.0/tex-ls-x86_64-apple-darwin.tar.gz"
-      sha256 "79e0c7162c0ca68c553624fa80ed2d37da2c420273f3e16b9ef0fe5016d5a0ed"
+      url "https://github.com/backmatter/tex-ls/releases/download/v0.1.3/tex-ls-x86_64-apple-darwin.tar.gz"
+      sha256 "354351c9d57945a133ea6f555697cf1f18945673e97b03b8af20fd9cc5a74222"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/backmatter/tex-ls/releases/download/v0.1.0/tex-ls-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "51684735ecec70709a49b7e7a935e6fd57416a6a3e634dff49adafaeef158a04"
+      url "https://github.com/backmatter/tex-ls/releases/download/v0.1.3/tex-ls-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "fa463cc60bebcf434e19b5eadeae5abf3d5b3f09d2d19c76bc9d4798496dcb4f"
     end
     on_intel do
-      url "https://github.com/backmatter/tex-ls/releases/download/v0.1.0/tex-ls-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "58f9d1d950559c7d57cece166f709c2c250cfcc373fe12627f5eb7286a48fcfa"
+      url "https://github.com/backmatter/tex-ls/releases/download/v0.1.3/tex-ls-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "0b472f62271cfff0947e79d1da67a18f562b50b7b17b2db0e10f4d425ff86aa1"
     end
   end
 
